@@ -1,6 +1,6 @@
 fn main() {
-    let x = 127_i8;
-    let y = 10_i8;
-    let z = x % y;
-    println!("{}", z);
+    let mut x = 4;
+    println!("x is: {}",x);
+    x = 5;
+    println!("x is: {}",x);
 }
